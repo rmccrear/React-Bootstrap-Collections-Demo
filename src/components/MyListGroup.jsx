@@ -9,6 +9,16 @@ class MyListGroup extends Component {
   render() {
     return ( 
       <ListGroup>
+        <ListGroup.Item>
+          Lay's
+        </ListGroup.Item>
+        <ListGroup.Item>
+          Pringles
+        </ListGroup.Item>
+        <ListGroup.Item>
+          Cheetoes
+        </ListGroup.Item>
+
       </ListGroup>
     );
   }

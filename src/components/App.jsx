@@ -16,6 +16,8 @@ export default function App() {
       <MyBreadCrumbs />
       <h1>Carousel</h1>
       <MyCarousel />
+      <h1>ListGroup</h1>
+      <MyListGroup />
     </Container>
   )
 }
