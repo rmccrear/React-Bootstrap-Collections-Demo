@@ -1,2 +1,10 @@
 main {
 }
+
+img.carousel {
+  min-width: 100%;
+}
+
+carousel {
+  width: 50%;
+}

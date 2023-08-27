@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import Placeholder from 'react-bootstrap/Placeholder';
+
+
+const slushyImgSrc = "../assets/francesca-hotchin-DSxurmhrfuc-unsplash.jpg";
 
 class MyCarousel extends Component {
   constructor(props) {
@@ -9,6 +11,18 @@ class MyCarousel extends Component {
   render() {
     return ( 
       <Carousel>
+        <Carousel.Item>
+          <img src={slushyImgSrc} />
+          <Carousel.Caption>
+            <h3>First slide label</h3>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src={slushyImgSrc} />
+          <Carousel.Caption>
+            <h3>Second slide label</h3>
+          </Carousel.Caption>
+        </Carousel.Item>
       </Carousel>
     );
   }

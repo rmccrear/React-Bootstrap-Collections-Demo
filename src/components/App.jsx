@@ -14,6 +14,8 @@ export default function App() {
     <Container>
       <h1>BreadCrumbs</h1>
       <MyBreadCrumbs />
+      <h1>Carousel</h1>
+      <MyCarousel />
     </Container>
   )
 }
