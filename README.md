@@ -20,12 +20,12 @@ We'll look at the `BasicExample`.
 
 To try this yourself, first add `<MyNav />` to `App.jsx`. Then starting building out the code in the render function of `MyNav.jsx`.
 
-* First, let's add the container.
+First, let's add the container.
 
-    <Nav>
-    </Nav>
+     <Nav>
+     </Nav>
 
-* Then, let's add the items.
+Then, let's add the items.
 
     <Nav>
       <Nav.Item>
@@ -39,7 +39,7 @@ To try this yourself, first add `<MyNav />` to `App.jsx`. Then starting building
       </Nav.Item>
     </Nav>
 
-* Nav.Items have more structure to them. If we add a Nav.Link to each Nav.Item, the CSS will kick in and will give a nice appeance. Try it!
+Nav.Items have more structure to them. If we add a Nav.Link to each Nav.Item, the CSS will kick in and will give a nice appeance. Try it!
 
     <Nav>
       <Nav.Item>
@@ -53,7 +53,7 @@ To try this yourself, first add `<MyNav />` to `App.jsx`. Then starting building
       </Nav.Item>
     </Nav>
 
-* To make it more dynamic, we can add `onSelect` to the Nav and `eventKey` to the Nav.Item. (How does this work? The best way to find out is to try it!)
+To make it more dynamic, we can add `onSelect` to the Nav and `eventKey` to the Nav.Item. (How does this work? The best way to find out is to try it!)
 
     <Nav
       onSelect={(selected) => alert(selected)}
