@@ -1,6 +1,6 @@
-import Container from 'react-bootstrap/Container'
+import Container from 'react-bootstrap/Container';
 
-import MyBreadCrumbs from './MyBreadCrumbs'
+import MyBreadCrumbs from './MyBreadCrumbs';
 import MyCarousel from './MyCarousel';
 import MyDropdown from './MyDropdown';
 import MyListGroup from './MyListGroup';
@@ -14,8 +14,9 @@ export default function App() {
     <Container>
       <h1>BreadCrumbs</h1>
       <MyBreadCrumbs />
-      <h1>Carousel</h1>
-      <MyCarousel />
+      <h4>
+        TODO: Try to implement the other React-Bootstrap Components
+      </h4>
     </Container>
   )
 }
